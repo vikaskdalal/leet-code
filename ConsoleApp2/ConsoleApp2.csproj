@@ -48,7 +48,9 @@
     <Compile Include="CombinationSum4.cs" />
     <Compile Include="LetterCasePermutation.cs" />
     <Compile Include="MaxProduct.cs" />
+    <Compile Include="MinimunSubArray.cs" />
     <Compile Include="MinimunWindowString.cs" />
+    <Compile Include="Multiply2Strings.cs" />
     <Compile Include="NQueen.cs" />
     <Compile Include="PhoneCombination.cs" />
     <Compile Include="Program.cs" />

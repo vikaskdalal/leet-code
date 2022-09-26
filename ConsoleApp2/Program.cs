@@ -349,6 +349,21 @@ namespace ConsoleApp2
 
         static void Main(string[] args)
         {
+            int a11 = -1 % 20;
+            List<int> set = new List<int>();
+            HashSet<int> set1 = new HashSet<int>();
+            set1.Add(1);
+            
+            set.Add(3);
+            set.Add(4);
+            set.Add(10);
+            set.Add(3);
+            int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+            //set.AddAllElements(new List<int>());
+            set.Sort((a1, b) => b.CompareTo(a1));
+
+            MinimunSubArray.MinSubArrayLen(11, new int[] { 1,2,3,4,5 });
+            Multiply2Strings.Multiply("123", "456");
             MaxProduct.MaxProduct1(new int[] { -2, 0, -1 });
             int[,] a = { { 1, 2, 3, 4 },
                       { 5, 6, 7, 8 },

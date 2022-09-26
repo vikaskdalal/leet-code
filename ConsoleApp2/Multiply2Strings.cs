@@ -29,7 +29,7 @@ namespace ConsoleApp2
             while (count >= 0 && res[count] == 0)
                 count--;
 
-            for (int i = 0; i <= count; i++)
+            for (int i = count; i >=0; i--)
                 sb.Append(res[i]);
 
             return sb.ToString();
