@@ -46,17 +46,21 @@
     <Compile Include="AllPalindromInString.cs" />
     <Compile Include="CelebrityProblem.cs" />
     <Compile Include="CombinationSum4.cs" />
+    <Compile Include="CourseSchedule2.cs" />
     <Compile Include="LetterCasePermutation.cs" />
     <Compile Include="MaxProduct.cs" />
     <Compile Include="MinimunSubArray.cs" />
     <Compile Include="MinimunWindowString.cs" />
     <Compile Include="Multiply2Strings.cs" />
     <Compile Include="NQueen.cs" />
+    <Compile Include="PathFromCornerToMiddleOfMaze.cs" />
     <Compile Include="PhoneCombination.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveInValidBracket.cs" />
     <Compile Include="SpiralOrder.cs" />
     <Compile Include="SuperSetOfString.cs" />
+    <Compile Include="WordBreak2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

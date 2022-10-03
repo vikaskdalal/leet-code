@@ -349,6 +349,16 @@ namespace ConsoleApp2
 
         static void Main(string[] args)
         {
+            PathFromCornerToMiddleOfMaze.PrintPath();
+            RemoveInValidBracket.RemoveInvalidParentheses("()())()");
+            WordBreak2.WordBreak("catsanddog", new string[] { "cat", "cats", "and", "sand", "dog" });
+            LinkedList<int> ansss = new LinkedList<int>();
+            
+            List<int> list = new List<int>(5);
+            list[4] = 12;
+            int[][] courses = new int[][] { new int[] { 1,0}, new int[] { 2, 0 }, new int[] { 3, 1}, new int[] { 3, 2} };
+            CourseSchedule2.FindOrder(4, courses);
+
             int a11 = -1 % 20;
             List<int> set = new List<int>();
             HashSet<int> set1 = new HashSet<int>();
